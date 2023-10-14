@@ -212,7 +212,7 @@ section {
 --------------------------------------------------------------*/
 .hover-effect:hover {
   color: blue; /* Change this to your desired hover effect */
-  cursor: pointer; /* Optional: Change the cursor to a pointer to indicate interactivity */
+  cursor: crosshair; /* Optional: Change the cursor to a pointer to indicate interactivity */
 }
 
 /*--------------------------------------------------------------
