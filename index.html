@@ -16,6 +16,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -219,7 +224,67 @@
         <div class="section-title">
           <h2>Projects</h2>
         </div>
-        <!-- Add your project details and content here -->
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <img src="assets/img/crownedonephotography.png" class="d-block w-100" alt="Sunset Over the City" />
+              <div class="carousel-caption d-none d-md-block">
+                <!--<h5>Crowned One Photography</h5>
+                <p>Responsive and mobile friendly photography website featuring images all taken by Steven Sewell.
+                  Website allows users to view images sorted by categories</p> -->
+              </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+              <img src="assets/img/thunderboltreport.png" class="d-block w-100" alt="Canyon at Nigh" />
+              <div class="carousel-caption d-none d-md-block">
+                <!--<h5><a href="http://lightningstrikesgames.sport.blog"
+                    style="text-decoration: none; color: inherit;">Thunder Bolt Report</a></h5>
+                <p>A WordPress blog-style website featuring news, game reports, and team information covering the Tampa
+                  Bay Lightning NHL team.</p>-->
+              </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+              <img src="assets/img/hellfirehockey.png" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+              <div class="carousel-caption d-none d-md-block">
+                <!--<h5><a href="https://hellfirehockey.wordpress.com" style="text-decoration: none; color: inherit;">Hell
+                    Fire Hockey</a></h5>
+                <p>A WordPress blog-style website featuring news, game reports, and team information covering the New
+                  Jersey Devils NHL team.</p>-->
+              </div>
+            </div>
+          </div>
+          <!-- Inner -->
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel wrapper -->
       </div>
     </section>
     <!-- End Projects Section -->
@@ -228,7 +293,7 @@
 
   </main><!-- End #main -->
 
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
 
 </body>
 
