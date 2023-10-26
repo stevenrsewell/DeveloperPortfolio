@@ -16,6 +16,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -67,7 +68,7 @@
           <div class="col-lg-4">
             <img src="assets/img/profile-img-3.jpg" class="img-fluid" alt="Steven Sewell">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-up">
             <h3>Full Stack Developer, UI/UX Designer</h3> <br>
             <div class="row">
               <div class="col-lg-6">
@@ -99,7 +100,7 @@
       <div class="container">
         <div class="section-title">
           <h2>Skills</h2>
-          <div class="container text-center">
+          <div class="container text-center" data-aos="zoom-in">
             <div class="row">
               <div class="col">
                 <span class="hover-effect">HTML</span> <br><br>
@@ -141,7 +142,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Certificate, Full Stack Web Development</h4>
@@ -160,7 +161,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
               <h4>Document Specialist</h4>
@@ -190,7 +191,7 @@
         </div>
         <!--Begin Grid Cards-->
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-up">
           <div class="col">
             <div class="card h-100">
               <img src="assets/img/crowned-one-photography.png" class="card-img-top" alt="...">
@@ -248,6 +249,7 @@
         <div class="section-title">
           <h2>About Me</h2>
         </div>
+        <div class="about-content" data-aos="flip-left">
         <p style="text-align: center;">My name is Steven Robert Sewell. I was born and grew up in Keyport New Jersey,
           part of the New York City Metropolitan area. I attended elementary and middle school at St. Joseph School in
           Aberdeen Township, and high school at Saint John Vianney in Holmdel.</p>
@@ -267,6 +269,7 @@
         <p style="text-align: center;">Some of my hobbies and activities including landscape and aerial photography,
           aviation, going to live NFL, MLB, NHL, WWE, and AEW events in the New York City area, and visiting waterfront
           parks with my shiba inu, Kuma. </p>
+        </div>
       </div>
     </section>
     <!-- End About Section -->
@@ -276,6 +279,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
