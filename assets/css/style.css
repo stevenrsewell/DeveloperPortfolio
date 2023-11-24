@@ -292,6 +292,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-content {
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   #header.mobile-hide-header {
