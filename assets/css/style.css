@@ -300,8 +300,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-content {
-  text-align: center;
+.about-content p {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media (max-width: 768px) {
